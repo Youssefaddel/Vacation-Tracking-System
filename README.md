@@ -23,8 +23,21 @@ VTS will empower individual employees to manage their vacation time, sick leave,
 
 ## Actors
 
-- Employee
-- Manager (Immediate)
-- HR Clerk
-- System administrator
+- Employee: Requests vacation time.
+- Manager: Approves or rejects vacation requests.
+- HR Staff: Oversees the system and manages employee records.
+- System administrator: responsible for the smooth running of the system’s technical       resources.
+
+
+## Use Case
+
+![VacationTrackingSystemUseCaseModel](https://github.com/user-attachments/assets/115ffe0e-ad9f-48fa-97e0-cd5897ee082c)
+
+
+## Sequence Diagram
+
+![VTS](https://github.com/user-attachments/assets/9652eb4e-4fa3-4018-95a0-2bdb9c7324b8)
+
+
+
 
