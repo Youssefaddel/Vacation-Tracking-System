@@ -29,14 +29,14 @@ VTS will empower individual employees to manage their vacation time, sick leave,
 - System administrator: responsible for the smooth running of the system’s technical       resources.
 
 
-## Use Case
+## Use Case Diagram
 
-![VacationTrackingSystemUseCaseModel](https://github.com/user-attachments/assets/115ffe0e-ad9f-48fa-97e0-cd5897ee082c)
+![5870819388955936277](https://github.com/user-attachments/assets/97b96bd4-13e3-42cc-9f7a-a7f7cea9885a)
 
 
 ## Sequence Diagram
 
-![VTS](https://github.com/user-attachments/assets/9652eb4e-4fa3-4018-95a0-2bdb9c7324b8)
+![VTS](https://github.com/user-attachments/assets/15e51728-a8ce-4b9e-bc55-4067e41d6593)
 
 
 
