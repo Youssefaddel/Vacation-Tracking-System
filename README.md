@@ -4,6 +4,7 @@
 
 VTS will empower individual employees to manage their vacation time, sick leave, and personal time off efficiently, without extensive knowledge of company policies. It will streamline the process and reduce the time required for approval.
 
+
 ## Functional Requirements
 
 - Implement a rules-based system for:
@@ -18,9 +19,29 @@ VTS will empower individual employees to manage their vacation time, sick leave,
 - Enables the HR and System Administrator to override all actions restricted by rules with logging those overrides.
 - Provide a Web service interface for querying an employee’s vacation request summary.
 - Interface with HR department legacy systems for employee information retrieval and updates.
-- Allow managers to directly award personal leave time (within system-set limits).
+- Allow managers to directly award personal leave time.
 
 
+## Non-Functional Requirements
+
+-Security:
+  - All user data must be encrypted during transmission and storage.
+-Usability:
+  -The user interface should be easy to navigate.
+-Maintainability:
+  -The system should allow for easy updates and maintenance
+
+
+## Constraints
+
+-Technological:
+  -The system must be built using the existing company technology stack: Java Spring Boot, Angular, and PostgreSQL.
+-Time:
+  -The project must be completed within 6 months.
+-Resource:
+  -The system must be able to integrate with existing HR and email systems without additional staffing resources.
+
+  
 ## Actors
 
 - Employee: Requests vacation time.
