@@ -41,7 +41,7 @@ VTS will empower individual employees to manage their vacation time, sick leave,
 
 ## Flowchart
 
-![Flowchart (1)](https://github.com/user-attachments/assets/54d5e590-34e7-44e0-ad83-6d932e129ba6)
+![Flowchart (2)](https://github.com/user-attachments/assets/71fe66a5-2630-47c9-a502-09c0dba0646b)
 
 
 ## Sequence Diagram
