@@ -26,7 +26,7 @@ VTS will empower individual employees to manage their vacation time, sick leave,
 - Employee: Requests vacation time.
 - Manager: Approves or rejects vacation requests.
 - HR Staff: Oversees the system and manages employee records.
-- System administrator: responsible for the smooth running of the system’s technical       resources.
+- System administrator: responsible for the smooth running of the system’s technical resources.
 
 
 ## Use Case Diagram
@@ -35,8 +35,6 @@ VTS will empower individual employees to manage their vacation time, sick leave,
 
 
 ## Sequence Diagram
-
-### Manage Time
 
 -Actors:
   -Employee
@@ -47,6 +45,9 @@ VTS will empower individual employees to manage their vacation time, sick leave,
 ![VTS (1)](https://github.com/user-attachments/assets/01ce3e74-3fa8-4514-a881-2ca52304cbd2)
 
 
+## ERD Diagram
+
+![Database ER diagram (crow's foot)](https://github.com/user-attachments/assets/c39e1613-fcd0-4ad2-a762-90302834ee4a)
 
 
 
