@@ -34,20 +34,67 @@ VTS will empower individual employees to manage their vacation time, sick leave,
 ![5870819388955936277](https://github.com/user-attachments/assets/809f9bc7-48e1-4c8f-9ea5-39c89d526753)
 
 
-## Sequence Diagram
+## ERD Diagram
 
--Actors:
-  -Employee
-  -Internal Portal
-  -System (VTS)
-  -Manager
+![Database ER diagram (crow's foot)](https://github.com/user-attachments/assets/c39e1613-fcd0-4ad2-a762-90302834ee4a)
+
+
+## Flowchart
+
+![Flowchart (1)](https://github.com/user-attachments/assets/54d5e590-34e7-44e0-ad83-6d932e129ba6)
+
+
+## Sequence Diagram
 
 ![VTS (1)](https://github.com/user-attachments/assets/01ce3e74-3fa8-4514-a881-2ca52304cbd2)
 
 
-## ERD Diagram
+## Pseudocode
 
-![Database ER diagram (crow's foot)](https://github.com/user-attachments/assets/c39e1613-fcd0-4ad2-a762-90302834ee4a)
+```
+BEGIN
+    Authenticate Employee
+    IF authentication fails THEN
+        DISPLAY "Error: Authentication Failed"
+        END
+    ENDIF
+
+    Employee SELECTS VTS Link
+
+    RETRIEVE Employee Vacation Status
+
+    Employee Create New Request
+    IF Employee does NOT want to create a new request THEN
+        END
+    ENDIF
+
+    Employee SELECTS "Vacation Category"
+    PROMPT Employee for Dates and Time
+
+    Employee ENTERS Details
+    Employee SUBMITS Request
+
+    VALIDATE Request
+    IF validation fails THEN
+        DISPLAY "Error"
+        PROMPT Employee to Correct or Cancel
+        GOTO "Employee ENTERS Details"
+    ENDIF
+
+    SET Request Status to "Pending Approval"
+    SEND Email Notification to Manager
+
+    Manager REVIEWS Request
+    IF Manager APPROVES Request THEN
+        SET Request Status to "Approved"
+        SEND Approval Notification to Employee
+    ELSE
+        SEND Disapproval Notification to Employee
+    ENDIF
+
+END
+
+```
 
 
 
