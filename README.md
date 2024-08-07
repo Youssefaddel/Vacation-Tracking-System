@@ -26,10 +26,8 @@ VTS will empower individual employees to manage their vacation time, sick leave,
 
 - Security:
   - All user data must be encrypted during transmission and storage.
-    
 - Usability:
   - The user interface should be easy to navigate.
-
 - Maintainability:
   - The system should allow for easy updates and maintenance
 
@@ -37,13 +35,11 @@ VTS will empower individual employees to manage their vacation time, sick leave,
 ## Constraints
 
 - Technological:
-  -The system must be built using the existing company technology stack: Java Spring Boot, Angular, and PostgreSQL.
-  
+  - The system must be built using the existing company technology stack: Java Spring Boot, Angular, and PostgreSQL.
 - Time:
-  -The project must be completed within 6 months.
-  
+  - The project must be completed within 6 months.
 - Resource:
-  -The system must be able to integrate with existing HR and email systems without additional staffing resources.
+  - The system must be able to integrate with existing HR and email systems without additional staffing resources.
 
   
 ## Actors
